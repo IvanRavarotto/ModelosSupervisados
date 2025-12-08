@@ -21,18 +21,18 @@ El análisis se basa en el dataset de Enfermedades Cardiovasculares (`Cardiovasc
 
 
 ## 🚀 Metodología
-###1. Preprocesamiento de Datos
+### 1. Preprocesamiento de Datos
 Antes de aplicar los algoritmos de clasificación, los datos fueron preprocesados y divididos en conjuntos de entrenamiento y prueba (80% y 20% respectivamente).
 
 ### 2. Modelos de Clasificación Supervisada
 Se implementaron y evaluaron los siguientes algoritmos de clasificación:
 
-**Decision Tree Classifier (Árbol de Decisión):** Un modelo intuitivo que toma decisiones de manera jerárquica.
-**Naive Bayesian (Clasificador Bayesiano Ingenuo):** Basado en el teorema de Bayes, asumiendo independencia entre las características.
+*  **Decision Tree Classifier (Árbol de Decisión):** Un modelo intuitivo que toma decisiones de manera jerárquica. 
+*  **Naive Bayesian (Clasificador Bayesiano Ingenuo):** Basado en el teorema de Bayes, asumiendo independencia entre las características. 
 Se exploraron MultinomialNB (para el dataset completo) y GaussianNB (con un subconjunto de 5 características clave).
-**Support Vector Machines (SVM):** Busca el hiperplano óptimo para separar las clases.
-**K-Nearest Neighbor (KNN):** Clasifica un punto de datos basándose en la mayoría de las clases de sus 'K' vecinos más cercanos.
-**Perceptron:** Un algoritmo de aprendizaje supervisado para clasificación binaria, que simula el funcionamiento básico de una neurona.
+*  **Support Vector Machines (SVM):** Busca el hiperplano óptimo para separar las clases.
+*  **K-Nearest Neighbor (KNN):** Clasifica un punto de datos basándose en la mayoría de las clases de sus 'K' vecinos más cercanos.
+*  **Perceptron:** Un algoritmo de aprendizaje supervisado para clasificación binaria, que simula el funcionamiento básico de una neurona.
 ### 3. Evaluación de Modelos
 Cada modelo fue evaluado utilizando métricas clave como:
 
